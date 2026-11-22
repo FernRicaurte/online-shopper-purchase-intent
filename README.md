@@ -95,6 +95,12 @@ jupyter notebook online_shoppers_intention_code.ipynb
 
 The XGBoost grid search is large (over 11,000 parameter combinations) and can take hours on a laptop. The saved outputs in the notebook show every result without re-running it.
 
+**macOS note:** XGBoost needs the OpenMP runtime. If importing it fails with an error mentioning `libomp.dylib`, install it with [Homebrew](https://brew.sh) and restart the kernel:
+
+```bash
+brew install libomp
+```
+
 ## Data source and citation
 
 Sakar, C. & Kastro, Y. (2018). *Online Shoppers Purchasing Intention Dataset*. UCI Machine Learning Repository. [https://doi.org/10.24432/C5F88Q](https://doi.org/10.24432/C5F88Q). Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
