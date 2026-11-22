@@ -86,6 +86,8 @@ The model found **207 of 286** buyers. When it flags a session as a likely purch
 
 ## Reproduce
 
+Requires Python 3.12 or newer. `requirements.txt` pins the exact library versions used, tested with a clean install on Python 3.14.
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook online_shoppers_intention_code.ipynb
