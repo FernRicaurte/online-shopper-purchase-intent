@@ -5,7 +5,7 @@
 Team project, M.S. in Data Analytics, University of Central Florida (Spring 2026).
 **Team:** Chase Di Maria Breisinger · Fenny Bharucha · Fernando Ricaurte · Julian McKinley · Matheus Pereira Lucena
 
-*Note: Claude (an AI assistant) appears as a co-author on some commits because it helped with debugging and repository setup only. The analysis and modeling were done by the project team.*
+*Note: Claude (an AI assistant) helped with debugging and repository setup only. The analysis and modeling were done by the project team.*
 
 `Python` · `scikit-learn` · `XGBoost` · `pandas` · `matplotlib` · `seaborn`
 
